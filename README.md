@@ -16,4 +16,4 @@ It was built for the folowing platforms:
 - WebGL original version (visible at: https://patrickattie.itch.io/galerievirtuelle, password = galvir)
 - Oculus Quest head mounted display and left and right hand controllers (buttons used: thumbstick)
 
-For more information, you can look at the wiki or email me at patrick.attie@esih.edu
+For more information and pics from the running app (desktop version), you can look at the wiki or email me at patrick.attie@esih.edu
