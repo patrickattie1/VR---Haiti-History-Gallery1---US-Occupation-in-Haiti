@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.XR;
 using UnityEngine;
 
-//This script is attached to the Left Hand of the VRRig
+//This script is attached to the Left Hand and/or the Right Hand of the VRRig
 public class XRLocomotion : MonoBehaviour
 {
     public string trackpadAxisX, trackpadAxisY; // Need inputs defined for the trackpad/joystick inputs
