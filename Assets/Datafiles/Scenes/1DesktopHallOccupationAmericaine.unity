@@ -344,6 +344,16 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4774366793845482397, guid: 02640ddde9ca89b41a6f39a5b82ee094,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -33.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774366793845482397, guid: 02640ddde9ca89b41a6f39a5b82ee094,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -59.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02640ddde9ca89b41a6f39a5b82ee094, type: 3}
 --- !u!4 &229017955 stripped
@@ -423,6 +433,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477528751734545887, guid: e23a0f51cd093cf45bf8cb1e4a53cd10,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477528751734545887, guid: e23a0f51cd093cf45bf8cb1e4a53cd10,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -55.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e23a0f51cd093cf45bf8cb1e4a53cd10, type: 3}
@@ -651,6 +671,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336220629252130538, guid: af4a1028e4cfc39459df0b8d2cf6c594,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -116.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 336220629252130538, guid: af4a1028e4cfc39459df0b8d2cf6c594,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af4a1028e4cfc39459df0b8d2cf6c594, type: 3}
