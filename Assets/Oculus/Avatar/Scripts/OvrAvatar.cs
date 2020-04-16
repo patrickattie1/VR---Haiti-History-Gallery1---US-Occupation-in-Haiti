@@ -1016,43 +1016,43 @@ public class OvrAvatar : MonoBehaviour
 
     bool IsValidMic()
     {
-        string[] devices = Microphone.devices;
+        ///string[] devices = Microphone.devices;
 
-        if (devices.Length < 1)
-        {
-            return false;
-        }
+        ////if (devices.Length < 1)
+        ////{
+        ////    return false;
+        ////}
 
         int selectedDeviceIndex = 0;
 #if UNITY_STANDALONE_WIN
-        for (int i = 1; i < devices.Length; i++)
-        {
-            if (devices[i].ToUpper().Contains("RIFT"))
-            {
-                selectedDeviceIndex = i;
-                break;
-            }
-        }
+        ////for (int i = 1; i < devices.Length; i++)
+        ////{
+        ////    if (devices[i].ToUpper().Contains("RIFT"))
+        ////    {
+        ////        selectedDeviceIndex = i;
+        ////        break;
+        ////    }
+        ////}
 #endif
 
-        string selectedDevice = devices[selectedDeviceIndex];
+        ////tring selectedDevice = devices[selectedDeviceIndex];
 
         int minFreq;
         int maxFreq;
-        Microphone.GetDeviceCaps(selectedDevice, out minFreq, out maxFreq);
+        ////Microphone.GetDeviceCaps(selectedDevice, out minFreq, out maxFreq);
 
-        if (maxFreq == 0)
-        {
-            maxFreq = 44100;
-        }
+        ////if (maxFreq == 0)
+        ////{
+        ////    maxFreq = 44100;
+        ////}
 
-        AudioClip clip = Microphone.Start(selectedDevice, true, 1, maxFreq);
-        if (clip == null)
-        {
-            return false;
-        }
+        ////AudioClip clip = Microphone.Start(selectedDevice, true, 1, maxFreq);
+        ////if (clip == null)
+        ////{
+        ////    return false;
+        ////}
 
-        Microphone.End(selectedDevice);
+        ////Microphone.End(selectedDevice);
         return true;
     }
 
